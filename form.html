@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemen Üye Ol</title>
+</head>
+<body>
+    
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <hr>
+
+    <form action="/Home/Register">
+    <h4>Hesap Bilgileriniz</h4>
+
+    <p>
+        Kullanıcı Adı: <input type="text" name="ad" placeholder="Kullanıcı adınızı giriniz" required>
+    </p>
+
+    <p>
+        Eposta: <input type="email" name="email" placeholder="e-posta giriniz" required>
+    </p>
+
+    <p>
+        Parola: <input type="password" name="parola" placeholder="parola giriniz" required>
+    </p>
+
+    <h4>Kişisel Bilgileriniz</h4>
+
+    <p>
+        Ad: <input type="text" name="ad" required>
+    </p>
+
+    <p>
+        Soyad: <input type="text" name="soyad" required>
+    </p>
+
+    <select>
+        Şehir:
+        <option>Seçiniz</option>
+       <option>İstanbul</option>
+       <option>Ankara</option>
+       <option>Samsun</option>            
+    </select>
+
+    <p>
+        Cinsiyet: 
+        Erkek <input type="radio" name="cinsiyet">
+        Kadın <input type="radio" name="cinsiyet">
+    </p>
+
+    <p>
+        Hobileriniz:
+        Sinema <input type="checkbox" name="hobi">
+        Gezmek <input type="checkbox" name="hobi">
+        Spor <input type="checkbox" name="hobi">
+        Kitap <input type="checkbox" name="hobi">
+    </p>
+
+    <input type="submit" name="kaydet">
+</form>
+</body>
+</html>
